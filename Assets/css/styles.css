@@ -82,6 +82,13 @@ p {
 .Bio p{
     font-size: 18px;
 }
+.Profile {
+    display: flex;
+    height: 200px;
+    width: auto;
+    align-content: center;
+    justify-content: space-evenly;
+}
 
 .battlestats {
     display: flex;
@@ -98,6 +105,7 @@ p {
 .button {
     display: flex;
     justify-content: space-evenly;
+    padding: 30px;
 }
 .Resume {
     display:block;
@@ -116,7 +124,7 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 30px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .contact-info h2 {
 color: #8ee4af;
@@ -124,4 +132,25 @@ color: #8ee4af;
 
 .contact-info {
     font-size: 20px;
+}
+.info {
+    display: inline-flex;
+    color: #8ee4af;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Phone {
+    padding: 20px;
+}
+.Email {
+    padding: 20px;
+}
+.Insta {
+    padding: 20px;
+}
+.Apple {
+    padding: 20px;
+}
+.Github {
+    padding: 20px;
 }
