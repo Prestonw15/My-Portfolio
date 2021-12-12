@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./Assets/css/styles.css">
     <title>My Portfolio</title>
 </head>
+<!--Learned Gradients from W3School-->
 
 <!--Start of Body-->
 <body>
@@ -24,10 +25,11 @@
                 </li>
                 
                 <li>
-                    <a href="#Contact-Me">Contact Me</a>
-                </li>
-                <li>
                     <a href="#Resume">Resume</a>
+                </li>
+                
+                <li>
+                    <a href="#Contact-Me">Contact Me</a>
                 </li>
             </ul>
         </nav>
@@ -36,34 +38,50 @@
    
 <!--Start of About me section-->
         <section id="About-Me" class="About-Me" >
-            <h2>About Me</h2>
+            <h2>About Me:</h2>
             <p>
                 My name is Preston Watson, I'm 23 yrs old living in Spanish fork Utah. I have a total of 9 siblings, 5 Brothers and 4 sisters. Some of the main things I enjoy are: Playing Basketball, Video Games, Hanging out with family and friends, and Coding! I currently Am working on becoming a complete full stack developer.
             </p>
         </section>
     
 <!--Start of Work Section-->
-        <div id="Work" class="Work">
-           
-            <h2>Work</h2>
-            
-        </div>
-    
+        <section id="Work">
+            <div class="">
+                <Article class="Work">
+                    <div class="work-title">
+                        <h2>Work:</h2>
+                    </div>
+                    <a href=""></a>
+                    <img class="battlestats" src="./Assets/images/Battlestats.png" alt="BattleStats login page">
+                </Article>
+            </div>    
+        </section>
+        <br/>
 
+        <!--Start of Resume-->
+        <section >
+          <button type="submit" id="Resume" class="Resume">
+              <a href="https://docs.google.com/document/d/1oxoqsUDnObQh2quBDT4kCnPS473Sw28QyVMgdVuL3pU/edit?usp=sharing">Click for Resume</a>
+            </button>
+        </section>
 <!--Contact Info-->
-    <section class="contact-info">
+    <section id="Contact-Me" class="contact-info">
         <div>
             <h2>Contact Me</h2>
         </div>
+        
         <address>
             <!--Phone Number-->
                             <div class="Phone-number">
                                 (385)-349-6374
                             </div>
+                            <br/>
             <!--EMail-->
                             <div class="Email">
                                 prestonwatson.15@gmail.com
                             </div>
+                            <br/>
+
             <!--Github-->
                             <div class="Github">
                                 Github
@@ -71,6 +89,7 @@
                                 <p>
                                     Prestonw15
                                 </p>
+                                <br/>
             <!--Instagram-->
                             <div class="Insta">
                                 Instagram
@@ -78,6 +97,7 @@
                                 <p>
                                     preston.watson24
                                 </p>
+                                <br/>
             <!--Apple Music-->
                             <div class="Apple">
                                 Apple Music
@@ -88,10 +108,6 @@
                         
 
         </address>
-    </section>
-    <!--Start of Resume-->
-    <section class="Resume">
-        <button type="submit" id="Resume" class="button"><a https://docs.google.com/document/d/1oxoqsUDnObQh2quBDT4kCnPS473Sw28QyVMgdVuL3pU/edit?usp=sharing>Click for Resume</a></button>
     </section>
 
 </body>
