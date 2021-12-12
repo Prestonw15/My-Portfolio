@@ -84,9 +84,8 @@ p {
     height: auto;
 }
 .button {
-    display: block;
-    justify-items: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 .Resume {
     display:block;
