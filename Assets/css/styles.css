@@ -53,9 +53,21 @@ a {
 p {
     font-size: 16px;
 }
-.work-title h2{
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: #05386b;
+}
 
+.Bio {
+    color: #05386b;
 
 }
 
@@ -65,11 +77,20 @@ p {
     width: 600px;
     height: auto;
 }
-
-.Resume {
+.Runbuddy {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    width: 600px;
+    height: auto;
+}
+.button {
+    display: block;
+    justify-items: center;
     align-items: center;
+}
+.Resume {
+    display:block;
+    right: 50;
     width: 25%;
     border: #8ee4af 3px;
     background-color: #05386b;
@@ -84,6 +105,7 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 30px;
+    justify-content: space-evenly;
 }
 .contact-info h2 {
 color: #8ee4af;
@@ -91,4 +113,11 @@ color: #8ee4af;
 
 .contact-info {
     font-size: 20px;
+}
+.info {
+    display: inline-flex;
+    color: #8ee4af;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
