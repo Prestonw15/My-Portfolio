@@ -67,8 +67,15 @@ p {
 }
 
 .Bio {
+    display: inline-flex;
     color: #05386b;
+    text-align: center;
+   margin-right: 200px;
+   margin-left: 200px;
+}
 
+.Bio p{
+    font-size: 18px;
 }
 
 .battlestats {
