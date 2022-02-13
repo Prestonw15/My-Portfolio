@@ -102,6 +102,12 @@ p {
     width: 600px;
     height: auto;
 }
+.FreeUrMind {
+    display: flex;
+    justify-content: start;
+    width: 600px;
+    height: auto;
+}
 .button {
     display: flex;
     justify-content: space-evenly;
